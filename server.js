@@ -4,6 +4,7 @@ const cors = require("cors");
 const bodyParser = require("body-parser");
 const { syncDatabase } = require("./src/models");
 const productRoutes = require("./src/routes/productRoutes");
+const usersRoutes = require("./src/routes/usersRoutes");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -14,6 +15,7 @@ app.use(bodyParser.json());
 
 // Rotas
 app.use("/products", productRoutes);
+app.use("/users", usersRoutes);
 
 // Sincronizar banco e iniciar servidor
 syncDatabase().then(() => {

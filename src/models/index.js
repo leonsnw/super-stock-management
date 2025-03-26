@@ -1,5 +1,6 @@
 const sequelize = require("../config/database");
 const Product = require("./product");
+const Users = require("./users");
 
 const syncDatabase = async () => {
   try {
@@ -10,4 +11,4 @@ const syncDatabase = async () => {
   }
 };
 
-module.exports = { syncDatabase, Product };
+module.exports = { syncDatabase, Product, Users };
