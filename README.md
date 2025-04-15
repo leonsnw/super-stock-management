@@ -1,7 +1,3 @@
-Aqui está o conteúdo que você pode adicionar ao seu arquivo `README.md`:
-
----
-
 # 📦 Gerenciador de Estoque
 
 ## 📖 Sobre o Projeto
