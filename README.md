@@ -13,10 +13,9 @@ O sistema será acessível via API REST, podendo futuramente ser integrado a uma
 ---
 
 ## 🛠️ Tecnologias Utilizadas
-- **Java 23**
-- **Spring Boot**
-- **Banco de Dados PostgreSQL**
-- **Maven**
+- **NodeJS**
+- **Tailwind**
+- **Banco de Dados Mongo**
 
 ---
 
